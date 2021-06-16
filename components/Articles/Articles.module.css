@@ -1,0 +1,29 @@
+.wrap {
+	margin: 50px;
+}
+
+.articles {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: baseline;
+}
+.article {
+	flex-basis: 25%;
+}
+
+.btn {
+	display: block;
+	width: 200px;
+	font-size: 20px;
+	border: none;
+	color: aqua;
+	text-transform: uppercase;
+	background-color: transparent;
+	border: 3px solid aqua;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+	cursor: pointer;
+	font-weight: bold;
+}
